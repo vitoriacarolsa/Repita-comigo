@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 5</title>
+</head>
+<body>
+    <script>
+    var  num1  =  parseInt ( prompt ( "Digite o primeiro número: " ) ) ;
+    var  num2  =  parseInt ( prompt ( "Digite o segundo número: " ) ) ;
+    var  media  =  0; 
+    soma = 0;  
+    cont = 0;
+
+    while ( num1  >  num2 ) {
+    alert ( "O segundo número precisa ser maior: " ) ;
+    num2  =  parseInt ( prompt ( "Digite outro número: " ) ) ;
+    }
+    for ( i=  num1 ;  i <= num2 ; i ++ ) {
+    soma = soma  +  i ;
+    cont ++ ;
+    }
+    media  =  parseFloat ( soma / cont ) ;
+    alert ( "A média dos números é: " + media ) ;
+
+
+
+  
+    </script>
+    
+</body>
+</html>
